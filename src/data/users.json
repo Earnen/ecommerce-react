@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Julia",
+    "lastname": "Sanchis",
+    "username": "bonijuls",
+    "mail": "jsanchis@example.com",
+    "password": "lamasboni",
+    "cart": [],
+    "whishlist": []
+  },
+
+  {
+    "name": "Jose Manuel",
+    "lastname": "Nuñez",
+    "username": "tur0k2",
+    "mail": "tur0k2@example.com",
+    "password": "backendfirst",
+    "cart": [],
+    "whishlist": []
+  },
+
+  {
+    "name": "Paula",
+    "lastname": "Wilshaw",
+    "username": "earnen",
+    "mail": "pwilmun@example.com",
+    "password": "lasegundamasboni",
+    "cart": [],
+    "whishlist": []
+  },
+
+  {
+    "name": "Daniel",
+    "lastname": "MacKay",
+    "username": "scottishpirate",
+    "mail": "scottishpirate@example.com",
+    "password": "auchaye",
+    "cart": [],
+    "whishlist": []
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "name": "Grey Penguin",
+    "img": "src/assets/baby_penguin_jpg.webp",
+    "description": "400ml mug. Made of high temperature clay and glazed with a clear, glossy and non-toxic glaze. Dishwasher and microwave safe.",
+    "price": 65
+  },
+
+  {
+    "id": 2,
+    "name": "Black Penguin",
+    "img": "src/assets/black_penguin_jpg.webp",
+    "description": "400ml mug. Made of high temperature clay and glazed with a clear, glossy and non-toxic glaze. Dishwasher and microwave safe.",
+    "price": 65
+  },
+
+  {
+    "id": 3,
+    "name": "White Cat",
+    "img": "src/assets/white_cat_jpg.webp",
+    "description": "400ml mug. Made of high temperature clay and glazed with a clear, glossy and non-toxic glaze. Dishwasher and microwave safe.",
+    "price": 65
+  },
+
+  {
+    "id": 4,
+    "name": "Happy Bakery",
+    "img": "src/assets/bakery_jpg.webp",
+    "description": "400ml mug. Made of high temperature clay and glazed with a clear, glossy and non-toxic glaze. Dishwasher and microwave safe.",
+    "price": 75
+  },
+
+  {
+    "id": 5,
+    "name": "Clover",
+    "img": "src/assets/clover_jpg.webp",
+    "description": "400ml mug. Made of high temperature clay and glazed with a clear, glossy and non-toxic glaze. Dishwasher and microwave safe.",
+    "price": 75
+  },
+
+  {
+    "id": 6,
+    "name": "Ponyo and Friends",
+    "img": "src/assets/ponyo_jpg.webp",
+    "description": "400ml mug. Made of high temperature clay and glazed with a clear, glossy and non-toxic glaze. Dishwasher and microwave safe.",
+    "price": 75
+  }
+]
