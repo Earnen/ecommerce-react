@@ -1,12 +1,55 @@
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
-
 .loginPage {
   background-color: var(--white);
   height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.loginContainer {
+  background-image: url("/src/assets/background.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 20rem;
+  width: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .form {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.inputdiv {
+  padding: 0.1rem;
+}
+
+.inputdiv input {
+  padding: 0.1rem 0.3rem;
+  font-size: 0.8rem;
+}
+
+.inputLogin {
+  border-radius: 1.5rem;
+  border: 0.12rem solid var(--black);
+  font-family: Quicksand;
+  color: var(--black);
+}
+
+.loginBtn {
+  border-radius: 1.5rem;
+  border: 0.12rem solid var(--black);
+  background-color: var(--dark-grey);
+  font-family: "Quicksand", sans-serif;
+  font-size: 0.8rem;
+  padding: 0.1rem 0.3rem;
+  color: var(--white);
+  transition: background-color 0.3s ease;
+}
+
+.loginBtn:active {
+  background-color: var(--black);
 }

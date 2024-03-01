@@ -7,7 +7,7 @@ export function Header() {
   return (
     <>
       <header>
-        <div className="">
+        <div className="logo">
           <img src="/src/assets/teacup_line.svg" alt="logo image" />
           Pretty Mugs
         </div>

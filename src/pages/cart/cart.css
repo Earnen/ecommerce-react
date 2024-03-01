@@ -1,10 +1,92 @@
-* {
-  margin: 0;
-  padding: 0;
+.cardItem {
+  padding-top: 2rem;
+  max-width: 100%;
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
 }
 
-.cardItem {
+.cartImg {
+  width: 30%;
+}
+
+.btns {
+  margin: 1rem;
   display: flex;
-  margin: 1rem 1.5rem 1rem 1.5rem;
-  border: 2px solid var(--dark-green);
+  flex-direction: row;
+  align-items: center;
+}
+
+.cartEmpty {
+  margin-top: 6rem;
+  width: 100%;
+  font-size: large;
+  color: var(--black);
+}
+
+.quantity {
+  width: 1rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.addremoveBtn {
+  min-width: 1.4rem;
+  border-radius: 2rem;
+  border: 0.12rem solid var(--black);
+  background-color: var(--dark-grey);
+  font-family: "Quicksand", sans-serif;
+  font-size: 0.6rem;
+  padding: 0.3rem;
+  color: var(--white);
+  transition: background-color 0.3s ease;
+}
+
+.addremoveBtn:active {
+  background-color: var(--black);
+}
+
+.removeBtn {
+  margin-left: 0.1rem;
+  min-width: 1.6rem;
+  border-radius: 2rem;
+  border: 0.12rem solid var(--black);
+  background-color: var(--dark-grey);
+  font-family: "Quicksand", sans-serif;
+  font-size: 0.8rem;
+  padding: 0.3rem;
+  color: var(--white);
+  transition: background-color 0.3s ease;
+}
+
+.removeBtn:active {
+  background-color: var(--black);
+}
+
+.totalPrice {
+  padding-bottom: 6rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.checkoutBtn {
+  margin-left: 0.5rem;
+  min-width: 1.6rem;
+  border-radius: 2rem;
+  border: 0.12rem solid var(--black);
+  background-color: var(--dark-grey);
+  font-family: "Quicksand", sans-serif;
+  font-size: 0.8rem;
+  padding: 0.3rem;
+  color: var(--white);
+  transition: background-color 0.3s ease;
+}
+
+.checkoutBtn:active {
+  background-color: var(--black);
 }

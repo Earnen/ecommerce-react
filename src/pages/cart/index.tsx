@@ -7,7 +7,6 @@ export function Cart() {
   return (
     <>
       <Header />
-      <h2 className="cartTitle">Cart</h2>
       <CartItems />
       <Footer />
     </>

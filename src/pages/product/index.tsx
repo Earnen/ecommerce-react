@@ -36,7 +36,7 @@ export function ProductDescription() {
   };
 
   return (
-    <>
+    <div className="card">
       <div className="productDiv">
         <img
           className="productImg"
@@ -70,6 +70,6 @@ export function ProductDescription() {
       >
         Add to cart
       </button>
-    </>
+    </div>
   );
 }

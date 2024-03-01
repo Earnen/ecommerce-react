@@ -17,7 +17,7 @@ export function ProductInfo(props: Props) {
     >
       <div className="productDiv">
         <img className="productImg" src={props.img} alt={props.name} />
-        <p className="productDescription">{props.description}(</p>
+        <p className="productDescription">{props.description}</p>
         <p className="productDescription price">{props.price} €</p>
       </div>
     </Link>

@@ -54,7 +54,7 @@ export function Login() {
 
   return (
     <section className="loginPage">
-      <div className="container">
+      <div className="loginContainer">
         <form className="form" onSubmit={validateForm}>
           <div className="inputdiv">
             <input

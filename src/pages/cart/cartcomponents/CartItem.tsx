@@ -47,7 +47,7 @@ export function CartItem({ product, count, renderPrice }: Props) {
           <div className="itemInfo">
             <h4>{product?.name}</h4>
             <p>{product?.price} €</p>
-            <div className="addremoveBtns">
+            <div className="btns">
               <button className="addremoveBtn" onClick={removeFromUserCart}>
                 -
               </button>
@@ -56,7 +56,7 @@ export function CartItem({ product, count, renderPrice }: Props) {
                 +
               </button>
 
-              <button className="addremoveBtn" onClick={handleDelete}>
+              <button className="removeBtn" onClick={handleDelete}>
                 Remove
               </button>
             </div>

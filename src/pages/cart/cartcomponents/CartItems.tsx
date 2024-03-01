@@ -31,7 +31,7 @@ export function CartItems() {
   }, [userCart]);
 
   return (
-    <>
+    <div className="cartContainer">
       {userCart.length === 0 && (
         <h3 className="cartEmpty">The cart is empty!</h3>
       )}
@@ -52,6 +52,6 @@ export function CartItems() {
           <button className="checkoutBtn">Checkout</button>
         </div>
       )}
-    </>
+    </div>
   );
 }

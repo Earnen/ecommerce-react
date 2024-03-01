@@ -1,0 +1,72 @@
+.productCardContainer {
+  width: 100%;
+  height: 85%;
+  background-color: var(--white);
+  display: flex;
+  align-items: start;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.productDiv {
+  margin: 1rem;
+  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.productImg {
+  width: 100%;
+  height: auto;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.quantity {
+  width: 1rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.addremoveBtn {
+  min-width: 1.6rem;
+  border-radius: 2rem;
+  border: 0.12rem solid var(--black);
+  background-color: var(--dark-grey);
+  font-family: "Quicksand", sans-serif;
+  font-size: 0.8rem;
+  padding: 0.3rem;
+  color: var(--white);
+  transition: background-color 0.3s ease;
+}
+
+.addremoveBtn:active {
+  background-color: var(--black);
+}
+
+.addBtn {
+  margin-left: 0.5rem;
+  border-radius: 2rem;
+  border: 0.12rem solid var(--black);
+  background-color: var(--dark-grey);
+  font-family: "Quicksand", sans-serif;
+  font-size: 0.8rem;
+  padding: 0.3rem;
+  color: var(--white);
+  transition: background-color 0.3s ease;
+}
+
+.addBtn {
+  background-color: var(--black);
+}

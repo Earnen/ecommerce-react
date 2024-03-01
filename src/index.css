@@ -1,9 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
 :root {
   --dark-blue: #193952;
-  --dark-grey: #7c6d62;
+  --dark-grey: #474746;
   --light-grey: #a0a09e;
   --white: #ffffff;
   --black: #121212;
+  font-family: "Quicksand", sans-serif;
 }
 
 * {
@@ -13,4 +16,7 @@
 
 body {
   background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

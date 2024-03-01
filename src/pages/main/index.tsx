@@ -9,16 +9,16 @@ export function Main() {
   return (
     <>
       <Header />
-      <ProductCards />
+      <MugCards />
       <Footer />
     </>
   );
 }
 
-export function ProductCards() {
+export function MugCards() {
   const productcontext = useProductsContext();
 
-  async function getProductsData() {
+  async function getMugData() {
     try {
       const data = await fetch("src/data/products.json");
       const JSONdata = await data.json();
@@ -29,10 +29,10 @@ export function ProductCards() {
   }
 
   useEffect(() => {
-    getProductsData();
+    getMugData();
   }, []);
   return (
-    <>
+    <div className="mainContainer">
       {productcontext.products.map((product) => {
         return (
           <ProductInfo
@@ -45,6 +45,6 @@ export function ProductCards() {
           />
         );
       })}
-    </>
+    </div>
   );
 }
