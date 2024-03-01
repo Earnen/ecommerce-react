@@ -1,9 +1,18 @@
-import React from "react";
+import "./header.css";
+import { useUsersContext } from "../../common/context/usercontext";
 
-type Props = {};
+export function Header() {
+  const userctxt = useUsersContext();
 
-const Header = (props: Props) => {
-  return <div>Header</div>;
-};
-
-export default Header;
+  return (
+    <>
+      <header>
+        <div className="">
+          <img src="/src/assets/teacup_line.svg" alt="logo image" />
+          Pretty Mugs
+        </div>
+        <h5 className="printName">Hello, {userctxt.user.name}!</h5>
+      </header>
+    </>
+  );
+}

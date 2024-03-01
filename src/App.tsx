@@ -1,17 +1,22 @@
 import "./App.css";
-import Cart from "./pages/cart";
-import Login from "./pages/login";
-import Main from "./pages/main";
-import Product from "./pages/product";
+import { BrowserRouter } from "react-router-dom";
+import { AuthProvider } from "./components/common/context/authcontext";
+import { ProductsContextProvider } from "./components/common/context/productcontext";
+import { UsersContextProvider } from "./components/common/context/usercontext";
+import AppRoutes from "./approuter/Approuter";
 
 function App() {
   return (
     <>
-      <p>Holi</p>
-      <Login />
-      <Main />
-      <Product />
-      <Cart />
+      <UsersContextProvider>
+        <ProductsContextProvider>
+          <AuthProvider>
+            <BrowserRouter>
+              <AppRoutes />
+            </BrowserRouter>
+          </AuthProvider>
+        </ProductsContextProvider>
+      </UsersContextProvider>
     </>
   );
 }

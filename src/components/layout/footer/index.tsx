@@ -1,9 +1,20 @@
-import React from "react";
+import "./footer.css";
+import { useNavigate } from "react-router-dom";
 
-type Props = {};
+function Footer() {
+  const navigate = useNavigate();
 
-const Footer = (props: Props) => {
-  return <div>Footer</div>;
-};
+  return (
+    <footer>
+      <button className="footerBtn" onClick={() => navigate("/main")}>
+        Home
+      </button>
+
+      <button className="footerBtn" onClick={() => navigate("/cart")}>
+        Cart
+      </button>
+    </footer>
+  );
+}
 
 export default Footer;

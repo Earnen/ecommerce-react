@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.cardItem {
+  display: flex;
+  margin: 1rem 1.5rem 1rem 1.5rem;
+  border: 2px solid var(--dark-green);
+}
